@@ -417,6 +417,20 @@ nav{
 }
 .owl-carousel {padding-left: 130px;
 padding-right:130px;}
+.owl-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color:#282828;
+    padding-top: 5px;
+   
+}
+.owl-carousel .owl-nav button.owl-prev ,.owl-carousel .owl-nav button.owl-next {width: 25px;
+height: 30px;
+font-size: 30px;}
+
+
 
 .item h5{font-size: 14px;
     padding-top: 5px;
@@ -438,6 +452,10 @@ color: #000;}
 @media screen and (max-width:479px){
     .owl-carousel {padding-left: 80px;
         padding-right:80px;}
+        .item{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
 }
  
 

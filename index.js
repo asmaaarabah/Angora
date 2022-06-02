@@ -3,12 +3,15 @@ $(document).ready(function(){
         items:3,
        margin:10,
         loop:true,
-        stagePadding:1,
+        stagePadding:2,
         autoplay:true,
-        autoplayTimeout:3000,
+        autoplayTimeout:5000,
         responsive:{
             0:{
-                items:1
+                items:1,
+                loop:true,
+                autoplay:true,
+                autoplayTimeout:5000,
             },
             600:{
                 items:2
@@ -17,7 +20,7 @@ $(document).ready(function(){
         }
         ,
         nav:true,
-        animateOut:true,
+        // animateOut:true,
      
      
         
